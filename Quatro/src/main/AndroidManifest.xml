@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ar.codeslu.Quatro">
+
+    <application>
+        <activity android:name=".QuatroRingingActivity"></activity>
+
+        <receiver android:name=".QuatroReciever" />
+    </application>
+
+</manifest>

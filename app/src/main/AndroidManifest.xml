@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.talq">
+
+    <application
+        android:name="com.talq.global.AppBack"
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name="com.talq.story.SroyAdd" />
+        <activity android:name="com.talq.Mapbox" />
+        <activity
+            android:name="com.talq.Qr"
+            android:label="@string/title_activity_qr"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.talq.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.talq.story.Archieve"
+            android:label="@string/title_activity_archieve"
+            android:parentActivityName="com.talq.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.talq.Invite"
+            android:label="@string/title_activity_invite"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.talq.Contacts"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.talq.auth.VerifyDelete"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.talq.Favourite"
+            android:label="@string/title_activity_favourite"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.talq.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.talq.Mute"
+            android:label="@string/title_activity_mute"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.talq.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.talq.Block"
+            android:label="@string/title_activity_block"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.talq.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.talq.settingsitems.CallsSetting"
+            android:label="@string/title_activity_calls_setting"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.talq.Setting"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.talq.story.EditStory"
+            android:label="@string/title_activity_edit_story"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.talq.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.talq.calls.CallingActivityVideo"
+            android:launchMode="singleTop"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/FullScreenVideoTheme" />
+        <activity
+            android:name="com.talq.calls.CallingActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name="com.talq.calls.IncAudioActivity"
+            android:directBootAware="true"
+            android:launchMode="singleTop"
+            android:turnScreenOn="true"
+            android:screenOrientation="sensorPortrait"
+            android:showOnLockScreen="true" />
+        <activity
+            android:name="com.talq.calls.IncCallActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="sensorPortrait"
+            android:showOnLockScreen="true" />
+        <activity
+            android:name="com.talq.Groups.AddUserGroup"
+            android:label="@string/title_activity_add_user_group"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.talq.Forward"
+            android:label="@string/forward"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.talq.story.StoryPlayer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.talq.Groups.ProfileGroup"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.talq.Groups.Group" />
+        <activity
+            android:name="com.talq.Groups.Group"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.talq.MainActivity" />
+        <activity
+            android:name="com.talq.Groups.AddGroup"
+            android:label="@string/title_activity_add_group"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.talq.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.talq.settingsitems.NotifSetting"
+            android:label="@string/title_activity_notif_setting"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.talq.Setting"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.talq.LockScreen" />
+        <activity
+            android:name="com.talq.settingsitems.SecuSetting"
+            android:label="@string/title_activity_secu_setting"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.talq.Setting"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.talq.settingsitems.TestWall"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.talq.settingsitems.ChatSettings"
+            android:label="@string/chatss"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.talq.Setting"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.talq.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="ar.codeslu.plax.OPEN_DYNAMIC_SHORTCUT" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.talq.auth.Login"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.talq.Profile"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.talq.auth.Verify"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.talq.auth.DataSet"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name="com.talq.EditProfile"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.talq.Contacts"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.talq.MainActivity" />
+        <activity
+            android:name="com.talq.Chat"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.talq.MainActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <activity
+            android:name="com.talq.Map"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_map"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.talq.mediachat.VideoA"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.talq.Chat" />
+        <activity
+            android:name="com.talq.mediachat.Photoa"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.talq.Chat" />
+        <activity
+            android:name="com.talq.story.AddStory"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.talq.Setting"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_setting"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.talq.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/ADMOB_APP_ID" />
+        <meta-data
+            android:name="android.support.FILE_PROVIDER_PATHS"
+            android:resource="@xml/provider_paths" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <receiver
+            android:name="com.talq.global.CheckConnectivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.talq.notify.FCMR"
+            android:directBootAware="true"
+            android:exported="false"
+            android:stopWithTask="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:requiredFeature="true" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        android:maxSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>

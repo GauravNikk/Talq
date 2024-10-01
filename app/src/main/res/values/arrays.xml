@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="ld_activityScreenTitles">
+        <item>Home</item>
+        <item>Contacts</item>
+        <item>Account</item>
+        <item>Settings</item>
+        <item>QR</item>
+        <item />
+        <item>Log Out</item>
+    </string-array>
+
+    <array name="ld_activityScreenIcons">
+        <item>@drawable/ic_home_outline_grey600_24dp</item>
+        <item>@drawable/ic_account_outline_grey600_24dp</item>
+        <item>@drawable/ic_my_account</item>
+        <item>@drawable/ic_settings_24</item>
+        <item>0</item>
+        <item>@drawable/ic_logout_grey600_24dp</item>
+    </array>
+
+</resources>

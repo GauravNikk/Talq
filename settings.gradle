@@ -1,0 +1,6 @@
+include ':storyview'
+include ':Quatro'
+include ':chatkit'
+include ':alerter'
+include ':app'
+rootProject.name = "Talq"
